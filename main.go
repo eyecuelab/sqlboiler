@@ -14,7 +14,7 @@ import (
 	"github.com/volatiletech/sqlboiler/boilingcore"
 )
 
-const sqlBoilerVersion = "2.7.0"
+const sqlBoilerVersion = "2.7.0-non_nulls"
 
 var (
 	flagConfigFile string
