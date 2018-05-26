@@ -222,6 +222,9 @@ var templateFunctions = template.FuncMap{
 	// Database related mangling
 	"whereClause": strmangle.WhereClause,
 
+	// Var Helpers
+	"nonNullVersion": nonNullVersion,
+
 	// Relationship text helpers
 	"txtsFromFKey":     txtsFromFKey,
 	"txtsFromOneToOne": txtsFromOneToOne,
